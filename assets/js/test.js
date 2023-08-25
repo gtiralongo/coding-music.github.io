@@ -24,7 +24,7 @@ const updateTerm = () => {
                         img = document.createElement('img'),
                         audio = document.createElement('audio'),
                         audioSource = document.createElement('source')
-
+                        console.log(artists);
                     // Now put content 
 
                     artists.innerHTML = result.artistName;
