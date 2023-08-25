@@ -8,5 +8,5 @@ document.getElementById('search-form').addEventListener('submit', function (e) {
 function searchMusic(query) {
     const apiUrl = `https://api.deezer.com/search?q=rock`;
     
-    let result = fetch(apiUrl,{mode: 'no-cors'})
+    let result = fetch(apiUrl)
     console.log(result)
