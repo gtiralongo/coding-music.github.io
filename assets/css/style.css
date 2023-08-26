@@ -1,3 +1,6 @@
+/*Paleta de Colores Principal:Fondo del nav: #2c3e50Texto del enlace: #ecf0f1Texto del enlace (hover): #3498dbColores de Acento:Botones y resaltados: #e74c3cBotones y resaltados (hover): #c0392bColores de Texto:Título principal: #333333Texto secundario: #777777Fondos Adicionales:Fondo general: #f0f0f0Fondo de contenido: #ffffff
+/*
+
 
 body {
   font-family: Arial, sans-serif;
@@ -6,7 +9,7 @@ body {
 }
 
 nav {
-  background-color: #333;
+  background-color: #2c3e50;
   padding: 10px 0;
 }
 
@@ -24,13 +27,13 @@ nav {
 
 .nav-list a {
   text-decoration: none;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav-list a:hover {
-  color: #ff9900;
+  color: #3498db;
 }
 
 h1{
