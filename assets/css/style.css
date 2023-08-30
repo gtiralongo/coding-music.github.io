@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap%27);
-/* fuente del logo 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap%27');
+/* fuente del logo */
 color: #FFBC25;
 font-family: Poppins;
 font-size: 48px;
@@ -23,16 +23,16 @@ coding music #ffb900 (255,185,0)
 }
 
 body {
-  background-image: url(/assets/media/images/background_1920x1280.jpg);
+  background-image: url("./assets/media/images/background_1920x1280.jpg");
 }
 
 nav {
   display: flex;
-  align-items: center; / Centrar verticalmente dentro del nav /
+  align-items: center; /* Centrar verticalmente dentro del nav */
 }
 
 .div-nav {
-  margin-left: 20px; / Espacio entre los elementos de navegación /
+  margin-left: 20px; /* Espacio entre los elementos de navegación */
 }
 
 .header-nav {
@@ -47,8 +47,8 @@ nav {
 }
 
 .form_ {
-  display: flex;  /alinea horizontalmente/
-  justify-content: center;  /alinea horizontalmente/
-  align-items: center; /alinea verticalmente/
-  height: 100vh; /alinea verticalmente*/
+  display: flex;  /*alinea horizontalmente*/
+  justify-content: center;  /*alinea horizontalmente*/
+  align-items: center; /*alinea verticalmente*/
+  height: 100vh; /*alinea verticalmente*/
 }
