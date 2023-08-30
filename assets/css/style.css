@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap%27);
-/* fuente del logo */
+/* fuente del logo 
 color: #FFBC25;
 font-family: Poppins;
 font-size: 48px;
@@ -8,14 +8,14 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 2.4px; 
 
-/* paleta de colores */
+/* paleta de colores 
 Hex            RGB
 #762d94    (118,45,148)
 #7bbbec    (123,187,236)
 #eecc65    (238,204,101)
 coding music #ffb900 (255,185,0)
 #b71f1f    (183,31,31)
-/
+*/
 
 :root {
   /*COLORES*/
