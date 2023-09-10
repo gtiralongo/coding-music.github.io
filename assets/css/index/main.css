@@ -1,0 +1,10 @@
+form {
+    display: flex;  /* alinea horizontalmente */
+    justify-content: center;  /* alinea horizontalmente */
+    align-items: center; /* alinea verticalmente */
+    height: 82svh; /* alinea verticalmente */  
+}
+
+label {
+  color: white; /* color de letras */
+} 
