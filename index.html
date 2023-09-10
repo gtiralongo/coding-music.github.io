@@ -8,23 +8,27 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+
     <title>Coding music</title>
   </head>
+
   <body>
     <header>
       <nav>
         <a class="color-logo" href="/">Coding music</a>
-        <div class="div-nav"><a href="/">Inicio</a></div>
-        <div class="div-nav"><a href="#">Acerca de nosotros</a></div>
-        <div class="div-nav"><a href="#">Más</a></div>
+        <div class="material-symbols-outlined"><a href="/">home</a></div>
+        <div class="div-nav">
+          <a href="./pages/about_us.html">Acerca de nosotros</a>
+        </div>
+        <div class="div-nav"><a href="./pages/more.html">Más</a></div>
       </nav>
     </header>
 
     <main>
-      <form class="form_" action="/search" method="get">
-        <label for="search">Buscar música:</label>
+      <form>
+        <label for="search"> Buscar música: </label>
         <input type="search" id="search" name="q" />
-        <button type="submit">Buscar</button>
+        <button class="search" type="submit">search</button>
       </form>
     </main>
 
