@@ -1,0 +1,54 @@
+form {
+    display: flex;  /* alinea horizontalmente */
+    justify-content: center;  /* alinea horizontalmente */
+    align-items: center; /* alinea verticalmente */
+    height: 50vh; 
+}
+
+label {
+  color: var(--color-logo);
+  margin-right: 10px
+
+} 
+
+/* Estilo para el contenedor de la barra de búsqueda */
+.search-container {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  align-items: center;
+  margin: 10px; /* Margen exterior para espaciado */
+}
+
+/* Estilo para el campo de entrada de búsqueda */
+.search-input {
+  border: 1px solid #cccccc; /* Borde del campo de entrada */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno para comodidad */
+  font-size: 16px; /* Tamaño de fuente */
+  width: 500px; /* Ancho del campo de entrada */
+  background-color: #c2e7e3;
+  color:  #71387f;
+}
+
+/* Estilo para el botón de búsqueda */
+.search-button {
+  background-color:  #036f7b; /* Color de fondo del botón */
+  color: #c2e7e3; /* Color del texto del botón */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 5px 15px; /* Espaciado interno para comodidad */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-left: 10px; /* Margen izquierdo para separar el botón del campo de entrada */
+}
+
+/* Estilo para el botón de búsqueda al pasar el cursor sobre él */
+.search-button:hover {
+  background-color:  #71387f; /* Cambia el color de fondo al pasar el cursor */
+  color: var(--color-logo);
+}
+
+/* Estilo para el botón de búsqueda al hacer clic en él */
+.search-button:active {
+  background-color: #036f7b; /* Cambia el color de fondo al hacer clic en el botón */
+}
