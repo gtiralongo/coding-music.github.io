@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("./header.css");
+@import url("./index/main.css");
+@import url("./footer.css");
+@import url("./about_us/main.css");
+@import url("./more/more.css");
+
+:root {
+  /*COLORES*/
+  --color-logo: #ffb900;
+}
+
+body {
+  margin: 0;
+  background-image: url(../media/images/background_1920x1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;  
+}

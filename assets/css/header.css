@@ -1,0 +1,29 @@
+header {
+  background-color: rgb(2, 26, 26); 
+  text-decoration: none; 
+}
+
+.div-nav,
+.material-symbols-outlined {
+  margin-left: 10px; /* Espacio entre los elementos de navegación */
+  text-decoration: none;
+}
+
+
+
+.color-logo {
+  color: var(--color-logo);
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.material-symbols-outlined {
+  
+  text-decoration: none;
+}
