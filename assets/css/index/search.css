@@ -1,15 +1,14 @@
 form {
-    display: flex;  /* alinea horizontalmente */
-    justify-content: center;  /* alinea horizontalmente */
-    align-items: center; /* alinea verticalmente */
-    height: 50vh; 
+  display: flex; /* alinea horizontalmente */
+  justify-content: center; /* alinea horizontalmente */
+  align-items: center; /* alinea verticalmente */
+  height: 50vh;
 }
 
 label {
   color: var(--color-logo);
-  margin-right: 10px
-
-} 
+  margin-right: 10px;
+}
 
 /* Estilo para el contenedor de la barra de búsqueda */
 .search-container {
@@ -27,12 +26,12 @@ label {
   font-size: 16px; /* Tamaño de fuente */
   width: 500px; /* Ancho del campo de entrada */
   background-color: #c2e7e3;
-  color:  #71387f;
+  color: #71387f;
 }
 
 /* Estilo para el botón de búsqueda */
 .search-button {
-  background-color:  #036f7b; /* Color de fondo del botón */
+  background-color: #036f7b; /* Color de fondo del botón */
   color: #c2e7e3; /* Color del texto del botón */
   border: none;
   border-radius: 5px; /* Bordes redondeados */
@@ -44,7 +43,7 @@ label {
 
 /* Estilo para el botón de búsqueda al pasar el cursor sobre él */
 .search-button:hover {
-  background-color:  #71387f; /* Cambia el color de fondo al pasar el cursor */
+  background-color: #71387f; /* Cambia el color de fondo al pasar el cursor */
   color: var(--color-logo);
 }
 

@@ -20,20 +20,17 @@ a:hover {
 .div-nav {
   margin-left: 20px; /* Espacio entre los elementos de navegación */
   text-decoration: none;
-  
 }
 
 .div-log {
   justify-content: right;
   text-decoration: none;
   margin-left: auto;
-  
 }
 .div-log a {
   margin-right: 10px;
   margin-left: 10px;
 }
-
 
 .color-logo {
   color: var(--color-logo);
@@ -46,7 +43,8 @@ a:hover {
   text-decoration: none;
 }
 
-.material-symbols-outlined, a {
+.material-symbols-outlined,
+a {
   color: rgb(177, 191, 196);
   text-decoration: none;
 }
@@ -54,4 +52,3 @@ a:hover {
 span {
   color: whitesmoke;
 }
-
