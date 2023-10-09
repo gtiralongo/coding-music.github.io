@@ -17,7 +17,7 @@ letter-spacing: 2.4px;
 }
 
 body {
-    background-image: url(".../assets/media/images/background-login-3000x1688.jpg.jpg");
+    background-image: url("../assets/media/images/background-login-3000x1688.jpg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
