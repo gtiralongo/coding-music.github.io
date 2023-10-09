@@ -9,6 +9,7 @@ line-height: normal;
 letter-spacing: 2.4px; 
 */
 
+
 /*Set 2 variables for the colors, to access, use : var(--var-name)*/
 :root {
     --main-font-color: #ebebeb;
