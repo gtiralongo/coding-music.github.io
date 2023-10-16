@@ -43,22 +43,17 @@
     </header>
       <div class="container">
       
-      <form>       
+      <form id="contact_form">       
     
         <h1>contactanos</h1>
         <input type="text" id="nombre" placeholder="Tu nombre" required />
         <br />
-        <input
-          type="email"
-          id="correo"
-          placeholder="Tu correo electrónico"
-          required
-        />
-        <textarea name="comentarios" rows="5" cols="60" class="textarea" placeholder="Contanos tus inquietudes..."></textarea>
+        <input type="email" id="correo" placeholder="Tu correo electrónico" required/>
+        <textarea name="comentarios" rows="5" cols="60" class="textarea" id="mensaje" placeholder="Contanos tus inquietudes..."></textarea>
 
         
 
-        <input type="submit" value="enviar" id="button" />
+        <input type="submit" value="enviar" id="button" onclick="contact_post()"/>
       </form>
     </body>  
     </div>
@@ -66,7 +61,7 @@
 </main>
 <!--   función para desplegar barra de navegación (cambia el nombre de clase y
   accede a otros styles de CSS) -->
-  <script> 
+  <script src="../assets/js/contact.js">
     function desplegar() {
       var x = document.getElementById("CodingMusicTopNav");
       if (x.className === "topnav") {
