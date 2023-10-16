@@ -1,5 +1,5 @@
 
-const contact_post = () => {
+function contact_post () {
     console.log("esta entrando a contact")
     let formulario = document.getElementById('contact_form');
     let name = document.getElementById('nombre').value;
