@@ -27,3 +27,12 @@ function contact_post () {
   .then((data) => console.log(data));
   //   formulario.reset();
 }
+
+ function desplegar() {
+      var x = document.getElementById("CodingMusicTopNav");
+      if (x.className === "topnav") {
+      x.className += " responsive";
+      } else {
+      x.className = "topnav";
+      }
+    }
