@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap%27);
- *{
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -14,62 +14,6 @@ background-attachment: fixed; }
 
 
 
-nav { 
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    align-items: top;
-   
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a {
-    color: whitesmoke;
-  }
-  
-  a:hover {
-    color: var(--color-logo);
-  }
-  
-  .div-nav {
-    margin-left: 20px; /* Espacio entre los elementos de navegación */
-    text-decoration: none;
-  }
-  
-  .div-log {
-    justify-content: right;
-    text-decoration: none;
-    margin-left: auto;
-  }
-  .div-log a {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  
-  .color-logo {
-    color: #ffb900;
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 2.4px;
-    text-decoration: none;
-  }
-  
-  .material-symbols-outlined,
-  a {
-    color: rgb(177, 191, 196);
-    text-decoration: none;
-    
-  }
-  
-  span {
-    color: whitesmoke;
-  }
 /*background-size: cover;
 background-attachment: fixed;
 
@@ -98,11 +42,9 @@ coding music #ffb900 (255,185,0)
     background: rgba(0,0,0,50%);
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
-    
-   
 }
     .container form h1{
-        color: #651366;
+        color: #f2f2f2;
         font-weight: 500;
         margin-top: 20px;
         width: 500px;
@@ -119,16 +61,16 @@ coding music #ffb900 (255,185,0)
         font-size: 15px;
         margin-bottom: 10px;
         background: none;
-        border-bottom: 2px solid #e7204e;
+        border-bottom: 2px solid #e7204f77;
         color: #ffb900;
 
     }
- 
+
 .container form input::placeholder {
 
 color: #f0c505;
- }
- 
+}
+
 .container form h4{
     color: #f0c505;
     font-weight: 300;
@@ -140,7 +82,7 @@ color: #f0c505;
 .container form textarea {
     background: none;
     border: none;
-    border-bottom: 2px solid #e7204e;
+    border-bottom: 2px solid #e7204f77;
     color: #f0c505;
     font-weigth:200;
     font-size: 20px;

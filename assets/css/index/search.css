@@ -1,53 +1,103 @@
-form {
-  display: flex; /* alinea horizontalmente */
-  justify-content: center; /* alinea horizontalmente */
-  align-items: center; /* alinea verticalmente */
-  height: 50vh;
-}
-
-label {
-  color: var(--color-logo);
-  margin-right: 10px;
-}
-
-/* Estilo para el contenedor de la barra de búsqueda */
-.search-container {
-  display: flex;
-  justify-content: flex-end; /* Alinea el contenido a la derecha */
+.search-bar-container {
   align-items: center;
-  margin: 10px; /* Margen exterior para espaciado */
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
 
-/* Estilo para el campo de entrada de búsqueda */
-.search-input {
-  border: 1px solid #cccccc; /* Borde del campo de entrada */
-  border-radius: 5px; /* Bordes redondeados */
-  padding: 5px 10px; /* Espaciado interno para comodidad */
-  font-size: 16px; /* Tamaño de fuente */
-  width: 500px; /* Ancho del campo de entrada */
-  background-color: #c2e7e3;
-  color: #71387f;
+.search-bar {
+  width: 100%;
+  max-width: 700px;
+  max-height: 100px;
+  padding: 24px 20px;
+  align-items: center;
+  display: flex;
+  background-color: #30303050;
+  border-radius: 60px;
+  backdrop-filter: blur(5px);
 }
 
-/* Estilo para el botón de búsqueda */
-.search-button {
-  background-color: #036f7b; /* Color de fondo del botón */
-  color: #c2e7e3; /* Color del texto del botón */
+.search-bar input {
+  background-color: transparent;
+  flex: 1;
   border: none;
-  border-radius: 5px; /* Bordes redondeados */
-  padding: 5px 15px; /* Espaciado interno para comodidad */
-  font-size: 16px; /* Tamaño de fuente */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  margin-left: 10px; /* Margen izquierdo para separar el botón del campo de entrada */
+  outline: 0;
+  padding: 24px 20px;
+  font-size: 24px;
+  color: #f2f2f2;
 }
 
-/* Estilo para el botón de búsqueda al pasar el cursor sobre él */
-.search-button:hover {
-  background-color: #71387f; /* Cambia el color de fondo al pasar el cursor */
+.search-bar input::placeholder {
+  color: #f2f2f2;
+}
+
+.search-bar button {
+  font-size: 28px;
+  width: auto;
+  width: 60px;
+  height: 60px;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgba(104, 104, 104, 0.5);
   color: var(--color-logo);
 }
 
-/* Estilo para el botón de búsqueda al hacer clic en él */
-.search-button:active {
-  background-color: #036f7b; /* Cambia el color de fondo al hacer clic en el botón */
+.search-bar button:hover {
+  color: black;
+  background-color: var(--color-logo);
 }
+
+
+/* ---MEDIA QUERIES--- */
+@media screen and (max-width: 1200px) {
+  .search-bar {
+    max-height: 80px;
+    max-width: 550px;
+    padding: 20px 16px;
+  }
+
+  .search-bar input {
+    font-size: 20px;
+  }
+
+  .search-bar button {
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-bar {
+    max-width: 400px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .search-bar {
+    max-width: 275px;
+    max-height: 70px;
+    padding: 0px 0px;
+  }
+
+  .search-bar input {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+
+  .search-bar button {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+
+}
+
+/*-------------------------------*/
