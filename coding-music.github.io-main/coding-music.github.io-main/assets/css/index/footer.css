@@ -1,0 +1,9 @@
+p {
+  color: rgb(190, 178, 178);
+  bottom: 16px;
+  color: rgb(155, 209, 191);
+  line-height: 20px;
+  max-width: 50vw;
+  padding: 8px;
+  position: fixed;
+}
