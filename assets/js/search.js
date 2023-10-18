@@ -14,7 +14,7 @@ function updateTerm() {
         const artists = data.results;
         const resultados = JSON.stringify(data);
         sessionStorage.setItem('resultados', resultados);
-        window.location.href = 'result.html';
+        window.location.href = './pages/result.html';
       })
       .catch((error) => console.log("Request failed:", error));
   }
