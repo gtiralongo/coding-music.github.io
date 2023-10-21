@@ -54,6 +54,12 @@
 
 /* ---MEDIA QUERIES--- */
 @media screen and (max-width: 1200px) {
+
+  .search-bar-container {
+    margin-top: 80px;
+    margin-bottom: 35px;
+  }
+
   .search-bar {
     max-height: 80px;
     max-width: 550px;
@@ -72,6 +78,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .search-bar-container {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
   .search-bar {
     max-width: 400px;
   }
@@ -79,6 +90,11 @@
 }
 
 @media screen and (max-width: 420px) {
+  .search-bar-container {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
   .search-bar {
     max-width: 275px;
     max-height: 70px;
