@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>formulario de contacto</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Gustavo Monzon" />
-    <link rel="stylesheet" href="../assets/css/contact/contact.css" />
-    <link
-      rel="shortcut icon"
-      href="../assets/media/images/icon/Coding_music_icon.ico"
-    />
-  </head>
+
+<head>
+  <title>formulario de contacto</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Gustavo Monzon" />
+  <link rel="stylesheet" href="../assets/css/contact/contact.css" />
+  <link rel="shortcut icon" href="../assets/media/images/icon/Coding_music_icon.ico" />
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head><!-- 
+  <header>
+    <nav>
+      <a class="color-logo" href="../index.html">Coding music</a>
+      <div class="div-nav"> <a href="../index.html">Inicio</a></div>
+      <div class="div-nav"> <a href="about.html">Acerca de nosotros</a>     </div>
+      <div class="div-nav"> <a href="contact.html">Contacto</a></div>
+      <div class="div-log">        <a href="login.html">Iniciar Sesión</a><span>/</span
+        ><a href="register.html">Registrarse</a>
+      </div>
+    </nav>
+  </header> -->
+<main>
+
   <body>
+    <header>
+      <div class="topnav" id="CodingMusicTopNav">
+        <a href="../index.html" class="color-logo" id="coding-music">Coding music</a>
+        <a href="../index.html">Inicio</a>
+        <a href="../pages/about.html">Acerca de nosotros</a>
+        <a href="../pages/login.html">Iniciar Sesión</a>
+        <a href="../pages/register.html">Registrarse</a>
+        <a href="javascript:void(0);" class="icon" onclick="desplegar()">
+          <!-- javaScript:void(0) para evaluar expresión y que no actualize página -->
+          <!--  onclick llama a la función desplegar() declarada más abajo en el html -->
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
     <div class="container">
-      <form>
+
+      <form id="contact_form">
+
         <h1>contactanos</h1>
         <input type="text" id="nombre" placeholder="Tu nombre" required />
         <br />
-        <input
-          type="email"
-          id="correo"
-          placeholder="Tu correo electrónico"
-          required
-        />
-        <h4>Contanos tus inquietudes...</h4>
-        <textarea required></textarea>
-        <input type="submit" value="enviar" id="button" />
+        <input type="email" id="correo" placeholder="Tu correo electrónico" required />
+        <textarea name="comentarios" rows="5" cols="60" class="textarea" id="mensaje"
+          placeholder="Contanos tus inquietudes..."></textarea>
+        <input type="submit" value="enviar" id="button" onclick="contact_post()" />
       </form>
-    </div>
   </body>
+  </div>
+
+</main>
+<!--   función para desplegar barra de navegación (cambia el nombre de clase y
+  accede a otros styles de CSS) -->
+<script src="../assets/js/contact.js">
+</script>
+
 </html>

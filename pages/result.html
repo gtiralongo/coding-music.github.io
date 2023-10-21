@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/index/suggestions.css">
+    <link rel="shortcut icon" href="./assets/media/images/icon/Coding_music_icon.ico" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Coding music</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="color-logo" href="./index.html">Coding music</a>
+            <div class="div-nav"><a href="./index.html">Inicio</a></div>
+            <div class="div-nav">
+                <a href="./pages/about.html">Acerca de nosotros</a>
+            </div>
+            <div class="div-nav"><a href="./pages/contact.html">Contacto</a></div>
+            <div class="div-log">
+                <a href="./pages/login.html">Iniciar Sesión</a><span>/</span><a
+                    href="./pages/register.html">Registrase</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="search"> Buscar: </label>
+            <input type="text" class="search-input" id="searchTerm" placeholder="Artistas, Conciones..." />
+            <button class="search-button" id="searchTermBtn">Buscar</button>
+        </form>
+        <section class="result-container" id="songs">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Foto de
+            <a
+                href="https://unsplash.com/es/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel
+                Czerwinski</a>
+            en
+            <a
+                href="https://unsplash.com/es/fotos/z7prq6BtPE4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+    </footer>
+    <script src="../assets/js/result.js"></script>
+</body>
+
+</html>

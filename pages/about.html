@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/index/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/css/about/about.css" />
+  <title>Acerca de nosotros</title>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="CodingMusicTopNav">
+      <a href="../index.html" class="color-logo" id="coding-music">Coding music</a>
+      <a href="../index.html">Inicio</a>
+      <a href="../pages/about.html">Acerca de nosotros</a>
+      <a href="../pages/contact.html">Contacto</a>
+      <a href="../pages/login.html">Iniciar Sesión</a>
+      <a href="../pages/register.html">Registrarse</a>
+      <a href="javascript:void(0);" class="icon" onclick="desplegar()">
+        <!-- javaScript:void(0) para evaluar expresión y que no actualize página -->
+        <!--  onclick llama a la función desplegar() declarada más abajo en el html -->
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="about-us">
+      <div id="about-us1">
+        <h1>Acerca de nosotros</h1>
+      </div>
+      <div id="about-us2">
+        <p id="about-us-p">Somos un grupo formado por cuatro entusiastas del codigo y la resolucion de problemas,
+          en especial todo lo referido al fascinante mundo digital. apasionados por la musica, ese
+          idioma universal, que genera miles de emociones agradables acompaña, divierte, inspira al
+          movimiento, relaja o te hace viajar a lugares infinitos. nuestra mision es alegrar los
+          corazones de todas las personas que deseen acceder a nuestra web ayudando a buscar, oir
+          y disfrutar musica los que integramos CODING MUSIC somos: <br>
+          <span style="color:#ffb900;">Daniel R | Gabriel M | Gustavo M | Gustavo T</span>
+        </p>
+      </div>
+      <div class="about-us3">
+        <img src="../assets/media/images/imagenAcerca.jpg" alt="imagen de musica">
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+<!--   función para desplegar barra de navegación (cambia el nombre de clase y
+  accede a otros styles de CSS) -->
+<script>
+  function desplegar() {
+    var x = document.getElementById("CodingMusicTopNav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</html>
