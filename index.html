@@ -70,7 +70,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="--footer">
       <div class="footer-image-ref"> <span>
         <p>Background by <a
           href="https://unsplash.com/es/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -111,8 +111,10 @@
       var x = document.getElementById("CodingMusicTopNav");
       if (x.className === "topnav") {
       x.className += " responsive";
+      document.getElementById('--footer').style.display = 'none';
       } else {
       x.className = "topnav";
+      document.getElementById('--footer').style.display = '';
       }
     }
   </script>
