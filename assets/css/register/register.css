@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/*
+color: #FFBC25;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px; 
+*/
+
+
+/*Set 2 variables for the colors, to access, use : var(--var-name)*/
+:root {
+    --main-font-color: #ebebeb;
+    --main-yellow: #ffb900;
+}
+
+body {
+    background-image: url("../../media/images/background-login-3000x1688.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainRegister {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: var(--main-font-color);
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.mainRegister .logo {
+    text-align: center;
+    color: var(--main-yellow);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px; 
+}
+
+.mainRegister .register {
+    color: var(--main-font-color);
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.mainRegister .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    color: var(--main-font-color);
+    padding: 15px 45px 15px 20px;
+}
+
+.input-box input::placeholder {
+    color: var(--main-font-color);
+}
+
+
+.mainRegister .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: var(--main-font-color);
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.mainRegister .btn {
+    width: 100%;
+    height: 45px;
+    background-color: var(--main-font-color);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.mainRegister .btn:hover {
+    background-color: var(--main-yellow);
+
+}
+
+.mainRegister .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px ;
+}
+
+.register-link p a {
+    color: var(--main-yellow);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.back-to-home {
+    color: var(--main-font-color);
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-to-home :hover {
+    text-decoration: underline;
+}
+
+#password1 {
+    margin: 0px 0px;
+}
+#password2 {
+    margin: 15px 0px;
+}
+/*  MQ */
+
+@media only screen and (max-width: 400px) {
+    .mainRegister {
+        width: 300px;
+        padding: 10px 15px;
+    }
+    .mainRegister .logo {
+        font-size: 28px;
+    }
+    .mainRegister .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin: -15px 0 15px;
+    }
+    .mainRegister .input-box {
+        width: 100%;
+        height: 50px;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .mainRegister {
+        width: 360px;
+        padding: 15px 20px;
+    }
+    .mainRegister .logo {
+        font-size: 36px;
+    }
+}
