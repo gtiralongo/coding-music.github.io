@@ -1,55 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
+@import url(../index/footer.css);
+@import url(../styles.css);
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  color: #ffb900;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffb900;
 }
 
 body {
-  background: url(https://static.wixstatic.com/media/2881a5_6fcb7dc13d764716b478b0011f82ddc7~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2881a5_6fcb7dc13d764716b478b0011f82ddc7~mv2.jpg) no-repeat center center/cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    background: url(https://static.wixstatic.com/media/2881a5_6fcb7dc13d764716b478b0011f82ddc7~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2881a5_6fcb7dc13d764716b478b0011f82ddc7~mv2.jpg) no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
 .about-us {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-#about-us1 {
-  text-align: center;
-  font-size: 24px;
+#about-us-header {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    width: 900px;
+    margin-bottom: 15px;
+
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    border: red solid 1px;
+}
+
+
+
+#about-us-p {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #fff;
+    height: auto;
+    width: 900px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    margin-bottom: 20px;
+
+    border: red solid 1px;
+}
+
+#about-us-p {
+    font-size: 20px;
+    font-weight: 400px;
+    width: 900px;
+    padding: 15px;
+}
+
+.about-us-img {
+    text-align: center;
+}
+
+.about-us-img img {
+    height: 30%;
+    width: 30%;
+}
+
+/* ----- MEDIA QUERIES -----*/
+
+@media only screen and (max-width: 425px) {
+    #about-us-header {
+        color: rgb(21, 255, 0);
+        font-size: 14px;
+        margin-top: 25px;
+        width: 300px;
+        border-radius: 10px;
+        padding: 0px;
 }
 #about-us-p {
-  font-size: 20px;
-  font-weight: 400px;
-  color: #fff;
-  height: auto;
-  width: 900px;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-  background-color:rgba(0, 0, 0, 0.356);
-  border-radius: 20px;
+    font-size: 13px;
+    font-weight: 400px;
+    width: 300px;
+    padding: 7px;
+}
+.about-us-img img {
+    height: 70%;
+    width: 70%;
+}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 640px) {
+    #about-us-header {
+        color: yellow;
+        font-size: 18px;
+        margin-top: 25px;
+        width: 450px;
+}
+#about-us-p {
+    font-size: 15px;
+    font-weight: 400px;
+    width: 450px;
+    padding: 10px;
+}
+
+.about-us-img img {
+    height: 60%;
+    width: 60%;
+}
 }
 
 
-
-.about-us3 {
-  text-align: center;
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+    #about-us-header {
+        color: orange;
+        font-size: 19px;
+        margin-top: 45px;
+        width: 560px;
+}
+#about-us-p {
+    font-size: 17px;
+    font-weight: 400px;
+    width: 560px;
+    padding: 10px;
 }
 
+.about-us-img img {
+    height: 50%;
+    width: 50%;
+}
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #about-us-header {
+        color: red;
+        font-size: 22px;
+        margin-top: 60px;
+        width: 680px;
+    }
 
-img {
-  height: 30%;
-  width: 30%;
+    
+#about-us-p {
+    font-size: 18px;
+    font-weight: 400px;
+    width: 680px;
+    padding: 10px;
+}
+
+.about-us-img img {
+    height: 40%;
+    width: 40%;
+}
+
 }
