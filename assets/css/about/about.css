@@ -36,7 +36,6 @@ body {
     background-color: rgba(0, 0, 0, 0.37);
     border-radius: 20px;
     backdrop-filter: blur(2px);
-    border: red solid 1px;
 }
 
 
@@ -54,8 +53,6 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(2px);
     margin-bottom: 20px;
-
-    border: red solid 1px;
 }
 
 #about-us-p {
