@@ -75,7 +75,6 @@ body {
 
 @media only screen and (max-width: 425px) {
     #about-us-header {
-        color: rgb(21, 255, 0);
         font-size: 14px;
         margin-top: 25px;
         width: 300px;
@@ -96,7 +95,6 @@ body {
 
 @media only screen and (min-width: 426px) and (max-width: 640px) {
     #about-us-header {
-        color: yellow;
         font-size: 18px;
         margin-top: 25px;
         width: 450px;
@@ -117,7 +115,6 @@ body {
 
 @media only screen and (min-width: 641px) and (max-width: 768px) {
     #about-us-header {
-        color: orange;
         font-size: 19px;
         margin-top: 45px;
         width: 560px;
@@ -137,7 +134,6 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     #about-us-header {
-        color: red;
         font-size: 22px;
         margin-top: 60px;
         width: 680px;
