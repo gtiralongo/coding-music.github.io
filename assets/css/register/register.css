@@ -17,7 +17,7 @@ letter-spacing: 2.4px;
 }
 
 body {
-    background-image: url("../../media/images/background-login-3000x1688.webp");
+    background-image: url("../../media/images/bg-register-compressed.webp");
     background-size: cover;
     display: flex;
     justify-content: center;
