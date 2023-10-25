@@ -1,9 +1,10 @@
 let term = "";
-const updateTerm = () => {
+const updateTerm = (e) => {
+  e.preventDefault();
   term = document.getElementById("searchTerm").value;
-  // check term exist
+  
   if (!term || term === "") {
-    alert("Please enter a seach term");
+    alert("Por favor ingrese su solicitud");
   } else {
     const url = `https://itunes.apple.com/search?term=${term}`;
     const songContainer = document.getElementById("songs");
@@ -13,10 +14,8 @@ const updateTerm = () => {
     fetch(url)
       .then((Response) => Response.json())
       .then((data) => {
-        // console.log(data.results);
         const artists = data.results;
         return artists.map((result) => {
-          // Now create Html Element
 
           const article = document.createElement("article"),
             artists = document.createElement("p"),
@@ -25,7 +24,6 @@ const updateTerm = () => {
             audio = document.createElement("audio"),
             audioSource = document.createElement("source");
           console.log(artists);
-          // Now put content
 
           artists.innerHTML = result.artistName;
           song.innerHTML = result.trackName;
