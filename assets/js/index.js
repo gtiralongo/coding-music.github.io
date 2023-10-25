@@ -1,6 +1,7 @@
 let term = "";
 const updateTerm = (e) => {
   e.preventDefault();
+  console.log("Esta entrando")
   term = document.getElementById("searchTerm").value;
   
   if (!term || term === "") {
