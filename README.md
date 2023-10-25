@@ -7,7 +7,7 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
 ## Tabla de Contenidos
 
 - [Introducción](#Introducción)
-- [2. Planificación del Proyecto Coding Music](#Planificación_del_Proyecto_Coding_Music)
+- [Planificación del Proyecto Coding Music](#Planificación_del_Proyecto_Coding_Music)
   - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Cómo Empezar](#cómo-empezar)
   - [Requisitos Previos](#requisitos-previos)
