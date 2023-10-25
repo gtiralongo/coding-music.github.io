@@ -1,6 +1,6 @@
 
-function contact_post () {
-    console.log("esta entrando a contact")
+function contact_post (e) {
+    e.preventDefault();
     let formulario = document.getElementById('contact_form');
     let name = document.getElementById('nombre').value;
     let email = document.getElementById('correo').value;
@@ -25,7 +25,7 @@ function contact_post () {
 })
   .then((response) => response.json())
   .then((data) => console.log(data));
-  //   formulario.reset();
+    formulario.reset();
 }
 
  function desplegar() {
