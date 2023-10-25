@@ -2,7 +2,6 @@
 # Conding Music
 
 Documentación Preliminar del Proyecto Front-End Full stack python CAC 4.0
-El proyecto consta de poder realizar busquedas en un servidor de musica por medio de una api.
 
 ## Tabla de Contenidos:
 
