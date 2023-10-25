@@ -7,7 +7,7 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
 ## Tabla de Contenidos
 
 - [Introducción](#Introducción)
-- [2. Planificación del Proyecto Coding Music](#2._Planificación_del_Proyecto_Coding_Music)
+- [2. Planificación del Proyecto Coding Music](#Planificación_del_Proyecto_Coding_Music)
   - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Cómo Empezar](#cómo-empezar)
   - [Requisitos Previos](#requisitos-previos)
@@ -21,9 +21,9 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
 ## Introducción
 El presente documento tiene como objetivo proporcionar una visión general de la planificación, organización y enfoque de desarrollo para el proyecto "Coding Music" el cual es una pagina web de busqueda de artistas y canciones y tiene como objetivo proporcionar a los usuarios una experiencia de entretenimiento y disfrute musical e informacion de artistas.
 
-## 2. Planificación del Proyecto Coding Music
+## Planificación del Proyecto Coding Music
 
-###Objetivos del Proyecto:
+### Objetivos del Proyecto:
 
 Crear una plataforma de entretenimiento amigable y segura.
 Ofrecer una amplia gama de resultados de busquedas musicales.
