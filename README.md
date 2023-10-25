@@ -4,7 +4,7 @@
 Documentación Preliminar del Proyecto Front-End Full stack python CAC 4.0
 El proyecto consta de poder realizar busquedas en un servidor de musica por medio de una api.
 
-## Tabla de Contenidos
+## Tabla de Contenidos:
 
 - [Introducción](#Introducción)
 - [Planificación del Proyecto Coding Music](##planificación-del-proyecto-coding-music)
@@ -16,21 +16,25 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
     - [Tecnologías Utilizadas](#tecnologías-utilizadas)
     - [Herramientas de Gestión del Proyecto](#herramientas-de-gestión-del-proyecto)
 - [Organización del Proyecto](#organización-del-proyecto)
-  - [Equipo de Proyecto](#tecnologías-utilizadas)
-  - [Reuniones semanales de seguimiento. Comunicación a través de discord.](#tecnologías-utilizadas)
-- [Objetivos del Proyecto](#cómo-empezar)
-  - [Instalación](#instalación)
-- [Descripción del Proyecto](#uso)
-- [Enfoque de Desarrollo](#contribución)
-  - [Arquitectura del Front-End](#requisitos-previos)
-  - [Diseño de Interfaz](#requisitos-previos)
-  - [Métodos de Desarrollo](#requisitos-previos)
-  - [Pruebas](#requisitos-previos)
-  - [Publicacion](#requisitos-previos)
-- [Conclusiones](#licencia)
-- [Fuentes Empleadas](#contacto)
-- [Referencia al metodo y/o informacion usado en](#contacto)
-- [Anexo](#contacto)
+  - [Equipo de Proyecto](#equipo-de-proyecto)
+  - [Reuniones semanales de seguimiento. Comunicación a través de discord.](#reuniones-semanales-de-seguimiento)
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Enfoque de Desarrollo](#enfoque-de-desarrollo)
+  - [Arquitectura del Front-End](#arquitectura-del-front-end)
+  - [Diseño de Interfaz](#diseño-de-interfaz)
+  - [Métodos de Desarrollo](#métodos-de-desarrollo)
+  - [Pruebas](#pruebas)
+  - [Publicacion](#publicacion)
+- [Conclusiones](#conclusiones)
+- [Fuentes Empleadas](#fuentes-empleadas)
+- [Referencia al metodo y/o informacion usado](#referencia-al-metodo-yo-informacion-usado)
+  - [Carrusel de fotos](#publicacion)
+  - [Diseño del logo](#diseño-del-logo)
+  - [Transparencias y opacidades](#transparencias-y-opacidades)
+  - [Maquetacion](#maquetacion)
+  - [Responsividad](#responsividad)
+  - [#Paleta de colores](#paleta-de-colores)
+- [Anexo](#anexos)
 
 ***
 
@@ -41,6 +45,7 @@ El presente documento tiene como objetivo proporcionar una visión general de la
 
 ### Objetivos del Proyecto
 
+El objetivo principal de Coding Music es proporcionar a los usuarios una plataforma de busqueda de canciones y artistas, intuitiva, simple y segura que les permita disfrutar de su musica preferida de alta calidad y recibir informacion acerca de sus artistas favoritos.
 Crear una plataforma de entretenimiento amigable y segura.
 Ofrecer una amplia gama de resultados de busquedas musicales.
 Proporcionar un entorno web sencillo y eficiente para satisfaccion del usuario.
@@ -77,7 +82,7 @@ Pruebas y Optimización: primera y segunda semana de octubre de 2023.
   
 ## Organización del Proyecto
 
-### Equipo de Proyecto:
+### Equipo de Proyecto
 
 Líder del Proyecto y Desarrollador Front-End: Gustavo Tiralongo y Gabriel Martinez.
 Diseñador de logo y maquetacion: Gabriel Martinez.
@@ -89,9 +94,6 @@ Comunicación con el docente: Gustavo Monzon.
 ### Reuniones semanales de seguimiento.
 Comunicación a través de discord.
 
-## Objetivos del Proyecto
-El objetivo principal de Coding Music es proporcionar a los usuarios una plataforma de busqueda de canciones y artistas, intuitiva, simple y segura que les permita disfrutar de su musica preferida de alta calidad y recibir informacion acerca de sus artistas favoritos.
-
 ## Descripción del Proyecto
 Los usuarios pueden navegar por el sitio web de coding music de manera simple e intuitiva,de un lay-out agradable a la vista y con un enfoque minimalista para no saturar al usuario.
 Tambien puede registrarse y obtener informacion adicional a sus inquietudes, loguearse al sitio y conservar un historial de busquedas, favoritos y novedades. 
@@ -99,36 +101,41 @@ O tambien por medio de los iconos del pie de pagina pueden acceder a sus redes s
 
 ## Enfoque de Desarrollo
 
-### Arquitectura del Front-End: Se utilizó para el desarrollo del front-end Visual studio code para la edicion de codigo, HTML 5 para la maquetacion de cada una de las paginas que componen el sitio web, se utilizo fuertemente CSS para garantiza una interfaz de usuario reactiva, rápida y atractiva. con JavaScrip vinculamos las APIs utilizadas, tomando la carga del usuario desde el formulario de consultas hasta la correcta manipulacion de los datos proporcionados en el registro y logueo del usuario.
+### Arquitectura del Front-End
+Se utilizó para el desarrollo del front-end Visual studio code para la edicion de codigo, HTML 5 para la maquetacion de cada una de las paginas que componen el sitio web, se utilizo fuertemente CSS para garantiza una interfaz de usuario reactiva, rápida y atractiva. con JavaScrip vinculamos las APIs utilizadas, tomando la carga del usuario desde el formulario de consultas hasta la correcta manipulacion de los datos proporcionados en el registro y logueo del usuario.
 
-### Diseño de Interfaz: Se seguirán las mejores prácticas de diseño centrado en el usuario, con un enfoque en la facilidad de navegación y la presentación visual atractiva mediante la simpleza y el contraste de colores agradables y con una excelente combinacion,mediante el uso de una paleta de colores.espaciado y centrado del texto e imagenes, tamaño de las fuentes acorde al sitio, implementacion de una animacion en el index con las fotos de varios artistas reconocidos mundialmente para inpirar al usuario.
+### Diseño de Interfaz
+Se seguirán las mejores prácticas de diseño centrado en el usuario, con un enfoque en la facilidad de navegación y la presentación visual atractiva mediante la simpleza y el contraste de colores agradables y con una excelente combinacion,mediante el uso de una paleta de colores.espaciado y centrado del texto e imagenes, tamaño de las fuentes acorde al sitio, implementacion de una animacion en el index con las fotos de varios artistas reconocidos mundialmente para inpirar al usuario.
 
+### Métodos de Desarrollo
+Se aplicará una metodología ágil, con entregas incrementales y revisiones regulares por medio de la utilizacion de la plataforma GitHub y las ramas creadas para cada integrante del grupo. segun la tarea asumida por cada integrante y luego de empujar el codigo hacia dicha plataforma, sera revisado y probado por el resto de integrantes, comunicacion mediante,conla aplicacion Discord, debatir cambios, mejoras, variantes y finalmente hacer un merge (mezcla) de todas las ramas hacia la rama principal(main).
 
-### Métodos de Desarrollo: Se aplicará una metodología ágil, con entregas incrementales y revisiones regulares por medio de la utilizacion de la plataforma GitHub y las ramas creadas para cada integrante del grupo. segun la tarea asumida por cada integrante y luego de empujar el codigo hacia dicha plataforma, sera revisado y probado por el resto de integrantes, comunicacion mediante,conla aplicacion Discord, debatir cambios, mejoras, variantes y finalmente hacer un merge (mezcla) de todas las ramas hacia la rama principal(main).
-
-### Pruebas: 
+### Pruebas
 Se llevarán a cabo pruebas exhaustivas para garantizar la calidad del código y funcionalidad.
 
-### Publicacion: 
+### Publicacion
 Actualmente en GitHub Pages y luego de corroborar el funcionamiento estable del sitio se procede a publicar en la web mediante el servidor gratuito Netlify
 
 ## Conclusiones
 La documentación preliminar proporciona una base sólida para el desarrollo de Coding Music. Los objetivos, la planificación, maquetacion y la organización están diseñados para asegurar que el proyecto se complete de manera exitosa y que los usuarios finales tengan una experiencia unica y amigable, de pura satisfaccion y compañia al usuario en sus momentos de ocio.
 
-## Fuentes Empleadas:
+## Fuentes Empleadas
 
-## Referencia al metodo y/o informacion usado en:
-### carrusel de fotos:
+## Referencia al metodo y/o informacion usado
+
+### Carrusel de fotos
 sitio espai. "https://www.espai.es/blog/2020/11/como-hacer-un-slider-solo-con-html-y-css"
-### Diseño del logo:
 
-### Transparencias y opacidades:
+### Diseño del logo
+
+### Transparencias y opacidades
 sitio hubspot  "https://blog.hubspot.es/website/opacidad-css".
-### Maquetacion:
 
-### Responsividad:
+### Maquetacion
 
-### Paleta de colores:
+### Responsividad
+
+### Paleta de colores
  
 ## Anexos
  
