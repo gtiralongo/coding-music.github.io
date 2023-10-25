@@ -32,37 +32,37 @@ El presente documento tiene como objetivo proporcionar una visión general de la
 
 ## Planificación del Proyecto Coding Music
 
-### Objetivos del Proyecto:
+### Objetivos del Proyecto
 
 Crear una plataforma de entretenimiento amigable y segura.
 Ofrecer una amplia gama de resultados de busquedas musicales.
 Proporcionar un entorno web sencillo y eficiente para satisfaccion del usuario.
 Garantizar la seguridad de los datos de los clientes registrados.
 
-### Alcance del Proyecto:
+### Alcance del Proyecto
 
 Desarrollo del front-end de la plataforma.
 Integración con APIs .
 
-### Cronograma de Desarrollo:
+### Cronograma de Desarrollo
 
 Fase de Diseño: Agosto de 2023.
 Fase de Desarrollo: Agosto a Octubre de 2023.
 Pruebas y Optimización: primera y segunda semana de octubre de 2023.
 
-### Recursos:
+### Recursos
 
-#### Equipo de Desarrollo:
+#### Equipo de Desarrollo
 - Diseñadores
 - Ddesarrolladores
 - Testers
 
-#### Tecnologías Utilizadas:
+#### Tecnologías Utilizadas
 - HTML
 - CSS
 - JavaScript
 - API Rest
-#### Herramientas de Gestión del Proyecto: 
+#### Herramientas de Gestión del Proyecto
 - Visual Studio code
 - Git
 - GitHub
