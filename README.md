@@ -8,6 +8,14 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
 
 - [Introducción](#Introducción)
 - [Planificación del Proyecto Coding Music](#Planificación_del_Proyecto_Coding_Music)
+  - [Objetivos del Proyecto](#Objetivos_del_Proyecto)
+  - [Alcance del Proyecto](#Alcance_del_Proyecto)
+  - [Cronograma de Desarrollo](#Cronograma_de_Desarrollo)
+  - [Recursos](#Recursos)
+    - [Equipo de Desarrollo](#Equipo_de_Desarrollo)
+    - [Tecnologías Utilizadas](#Tecnologías_Utilizadas)
+    - [Herramientas de Gestión del Proyecto](#Herramientas_de_Gestión_del_Proyecto)
+- [Organización del Proyecto](#Organización_del_Proyecto)
   - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Cómo Empezar](#cómo-empezar)
   - [Requisitos Previos](#requisitos-previos)
@@ -17,6 +25,7 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
 - [Licencia](#licencia)
 - [Contacto](#contacto)
 
+***
 
 ## Introducción
 El presente documento tiene como objetivo proporcionar una visión general de la planificación, organización y enfoque de desarrollo para el proyecto "Coding Music" el cual es una pagina web de busqueda de artistas y canciones y tiene como objetivo proporcionar a los usuarios una experiencia de entretenimiento y disfrute musical e informacion de artistas.
@@ -47,7 +56,8 @@ Pruebas y Optimización: primera y segunda semana de octubre de 2023.
 - Diseñadores
 - Ddesarrolladores
 - Testers
-#### Tecnologías Utilizadas
+
+#### Tecnologías Utilizadas:
 - HTML
 - CSS
 - JavaScript
@@ -58,7 +68,7 @@ Pruebas y Optimización: primera y segunda semana de octubre de 2023.
 - GitHub
 - Discord
   
-## 3. Organización del Proyecto
+## Organización del Proyecto
 Equipo de Proyecto:
 
 Líder del Proyecto y Desarrollador Front-End: Gustavo Tiralongo y Gabriel Martinez.
