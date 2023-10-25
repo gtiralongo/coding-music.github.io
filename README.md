@@ -138,8 +138,9 @@ sitio hubspot  "https://blog.hubspot.es/website/opacidad-css".
 ### Paleta de colores
 
 ### APIs
-- [sheetdb](https://docs.sheetdb.io/)
-- [itunes](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1)
+- Para recibir las consultas de contactos [sheetdb](https://docs.sheetdb.io/)
+- Para enviar el correo de recepcion de contacnto [Google Apps Script](https://developers.google.com/apps-script)
+- Para traer musica [itunes](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1)
 
 ## Anexos
  
