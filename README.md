@@ -32,8 +32,8 @@ Documentación Preliminar del Proyecto Front-End Full stack python CAC 4.0
   - [Transparencias y opacidades](#transparencias-y-opacidades)
   - [Maquetacion](#maquetacion)
   - [Responsividad](#responsividad)
-  - [#Paleta de colores](#paleta-de-colores)
-  - [#APIs](#apis)
+  - [Paleta de colores](#paleta-de-colores)
+  - [APIs](#apis)
 - [Anexo](#anexos)
 
 ***
