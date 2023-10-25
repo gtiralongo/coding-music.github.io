@@ -18,10 +18,10 @@ El proyecto consta de poder realizar busquedas en un servidor de musica por medi
 - [Contacto](#contacto)
 
 
-##1. Introducción
+## 1. Introducción
 El presente documento tiene como objetivo proporcionar una visión general de la planificación, organización y enfoque de desarrollo para el proyecto "Coding Music" el cual es una pagina web de busqueda de artistas y canciones y tiene como objetivo proporcionar a los usuarios una experiencia de entretenimiento y disfrute musical e informacion de artistas.
 
-##2. Planificación del Proyecto Coding Music
+## 2. Planificación del Proyecto Coding Music
 
 ###Objetivos del Proyecto:
 
@@ -30,18 +30,18 @@ Ofrecer una amplia gama de resultados de busquedas musicales.
 Proporcionar un entorno web sencillo y eficiente para satisfaccion del usuario.
 Garantizar la seguridad de los datos de los clientes registrados.
 
-###Alcance del Proyecto:
+### Alcance del Proyecto:
 
 Desarrollo del front-end de la plataforma.
 Integración con APIs .
 
-###Cronograma de Desarrollo:
+### Cronograma de Desarrollo:
 
 Fase de Diseño: Agosto de 2023.
 Fase de Desarrollo: Agosto a Octubre de 2023.
 Pruebas y Optimización: primera y segunda semana de octubre de 2023.
 
-###Recursos:
+### Recursos:
 
 #### Equipo de Desarrollo:
 - Diseñadores
@@ -58,7 +58,7 @@ Pruebas y Optimización: primera y segunda semana de octubre de 2023.
 - GitHub
 - Discord
   
-##3. Organización del Proyecto
+## 3. Organización del Proyecto
 Equipo de Proyecto:
 
 Líder del Proyecto y Desarrollador Front-End: Gustavo Tiralongo y Gabriel Martinez.
