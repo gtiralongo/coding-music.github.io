@@ -33,6 +33,7 @@ Documentación Preliminar del Proyecto Front-End Full stack python CAC 4.0
   - [Maquetacion](#maquetacion)
   - [Responsividad](#responsividad)
   - [#Paleta de colores](#paleta-de-colores)
+  - [#APIs](#apis)
 - [Anexo](#anexos)
 
 ***
@@ -135,6 +136,10 @@ sitio hubspot  "https://blog.hubspot.es/website/opacidad-css".
 ### Responsividad
 
 ### Paleta de colores
- 
+
+### APIs
+- [sheetdb](https://docs.sheetdb.io/)
+- [itunes](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1)
+
 ## Anexos
  
