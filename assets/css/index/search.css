@@ -117,3 +117,15 @@
 }
 
 /*-------------------------------*/
+#songs {
+  text-align: center;
+}
+#songs article {
+  margin-top: 25px;
+
+}
+
+#songs article p, h4 {
+  font-size: 16px;
+  color: #f2f2f2;
+}

@@ -17,10 +17,12 @@
 }
 
 body {
+  min-height: 100vh;
   background-image: url(../media/images/background_1920x1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+<<<<<<< HEAD
 }
 article {
   display: flex;
@@ -32,4 +34,8 @@ h4{
 p{
   color: white;
   width: 200px;
+=======
+  display: flex;
+  flex-direction: column;
+>>>>>>> b7497816ca65c53fa64195d7fb450b680b994ee2
 }

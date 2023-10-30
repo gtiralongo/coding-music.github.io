@@ -3,15 +3,19 @@
 footer {
   background-color: #131313ea;
   backdrop-filter: blur(1px);
-  color: #fff;
-  position: absolute;
+  color: #fff;/* 
+  position: absolute; */
   bottom: 0;
   right: 0;
   height: auto;
   width: 100vw;
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
  
+=======
+  margin-top: auto;
+>>>>>>> b7497816ca65c53fa64195d7fb450b680b994ee2
 }
 
 
