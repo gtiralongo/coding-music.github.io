@@ -119,7 +119,7 @@
 /*-------------------------------*/
 #songs {
   text-align: center;
-  justify-content: center;
+  display: flex
 }
 #songs article {
   margin-top: 25px;
