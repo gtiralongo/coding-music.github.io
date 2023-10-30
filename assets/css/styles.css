@@ -22,3 +22,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+article {
+  display: flex;
+}
+h4{
+  color: white;
+  width: 200px;
+}
+p{
+  color: white;
+  width: 200px;
+}

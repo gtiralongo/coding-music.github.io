@@ -47,6 +47,8 @@ const updateTerm = (e) => {
       .catch((error) => console.log("Request failed:", error));
   }document.getElementById(`carrusel`).style.display =`none`;
   document.getElementById(`sbc`).style.marginTop =`0`;
+  document.getElementById(`contRes`).style.display =`flex`;
+
 };
 
 const searchBtn = document.getElementById("searchTermBtn");

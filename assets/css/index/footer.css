@@ -11,11 +11,12 @@ footer {
   width: 100vw;
   padding: 0;
   margin: 0;
+ 
 }
 
 
 .footer-content {
-  display: flex;
+  display: fixed;
   align-items: center;
   justify-content: center;
   flex-direction: column;
