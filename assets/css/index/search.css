@@ -119,6 +119,7 @@
 /*-------------------------------*/
 #songs {
   text-align: center;
+  justify-content: center;
 }
 #songs article {
   margin-top: 25px;
