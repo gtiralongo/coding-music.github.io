@@ -1,4 +1,5 @@
 let term = "";
+
 const updateTerm = (e) => {
   e.preventDefault();
   console.log("Esta entrando")
@@ -9,6 +10,8 @@ const updateTerm = (e) => {
   } else {
     const url = `https://itunes.apple.com/search?term=${term}`;
     const songContainer = document.getElementById("songs");
+   
+
     while (songContainer.firstChild) {
       songContainer.removeChild(songContainer.firstChild);
     }
@@ -31,7 +34,7 @@ const updateTerm = (e) => {
           img.src = result.artworkUrl100;
           audioSource.src = result.previewUrl;
           audio.controls = true;
-
+          
           article.appendChild(img);
           article.appendChild(artists);
           article.appendChild(song);
@@ -42,11 +45,13 @@ const updateTerm = (e) => {
         });
       })
       .catch((error) => console.log("Request failed:", error));
-  }
+  }document.getElementById(`carrusel`).style.display =`none`;
+  document.getElementById(`sbc`).style.marginTop =`0`;
 };
 
 const searchBtn = document.getElementById("searchTermBtn");
 searchBtn.addEventListener("click", updateTerm);
+
 
 document.addEventListener(
   "play",
