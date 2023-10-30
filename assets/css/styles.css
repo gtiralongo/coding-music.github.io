@@ -17,8 +17,11 @@
 }
 
 body {
+  min-height: 100vh;
   background-image: url(../media/images/background_1920x1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }
